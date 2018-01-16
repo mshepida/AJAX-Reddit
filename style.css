@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+#images img {
+    height: 100px;
+}
+.search-block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 5px;
+}
+.search-elements {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+input[type="text"] {
+    margin: 5px 0 10px 0;
+    padding: 0 0 5px 0;
+    outline-color: black;
+}
+
+.button {
+    color: #fff;
+    width:100px;
+    justify-content: center;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .35s;
+}
+.button:hover{
+    color:blue;
+    background: #001f3f;
+
+}
+
+#images {
+    margin: 20px;
+}
+
+
+
+
